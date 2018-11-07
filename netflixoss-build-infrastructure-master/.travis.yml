@@ -2,8 +2,8 @@ language: java
 install: true
 jdk:
 - oraclejdk8
-os: -linux
-sudo: enabled
+
+sudo: true
 install: ./installViaTravis.sh
 script: ./buildViaTravis.sh
 cache:
