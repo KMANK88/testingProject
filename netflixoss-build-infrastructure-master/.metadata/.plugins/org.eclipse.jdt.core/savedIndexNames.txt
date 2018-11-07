@@ -1,0 +1,1 @@
+INDEX VERSION 1.131+/Users/Karsten/Desktop/Fall18/SWTesting/Project/netflixoss-build-infrastructure-master/.metadata/.plugins/org.eclipse.jdt.core
