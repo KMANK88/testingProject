@@ -7,6 +7,5 @@ jdk:
 os:
   - linux
   - osx
-sudo: false
 
 script: ./buildViaTravis.sh
