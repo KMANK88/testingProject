@@ -1,14 +1,14 @@
 language: java
 jdk:
 - oraclejdk8
-sudo: false
-jdk:
-  - oraclejdk11
+ - oraclejdk11
   - oraclejdk9
-  - oraclejdk8
 os:
   - linux
   - osx
+
+sudo: false
+
 install: true
 
 install: ./installViaTravis.sh
