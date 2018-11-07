@@ -13,3 +13,7 @@ env:
   - secure: Y/tdmASBh4X7uc+aOJBDJH1dLfeGQ0SnFLd/gMpH5e3a7jrr/3TE0ymzVCxtfhnd9oys0zIRvRuabVI2K0ZSMvmIocfTILjeRO3cCimLsHOIkcm3h++731/QMKemKAceasX5ZkjqNTPBXOYks5LSAaTJAIxFNnJ2IhxIOzYsttY=
   - secure: Rbw71Wr8jMhaph3zD2m/S5yWI4gxGZdIkumhMTDOZvfI9C+E2jjJfg07RpPEhP2WmVUl6ZXEmPHtQIJXnfaIRs1PO1j3RoVijjK96plG/p/jrrhG+lpeI9mC81ITDNbFVy1Rt6tev+fMgku5mswAPjKBfen3EcKFKG5wLp8MyY0=
   - secure: YFYFT/wf8roEBfMpZHFne6d342dixvlrivs61749towmy43ZMhV2/h1Cz5YfW8FTv7+nbOq1Zijk0WM3GbrALTzKMys9Y3v2Y/1evejfjTirDanoSV53Kx9MpRk006OFvoKvA9ymPSE+5ucRVJ1eJ4TZ0X/fZAiFXNWN2WR8Ltc=
+
+  branches:
+    except:
+  - gh-pages
