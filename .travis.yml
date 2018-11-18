@@ -1,9 +1,11 @@
 language: java
 install: true
 jdk:
+  - oraclejdk11
+  - oraclejdk9
   - oraclejdk8
 os:
   - linux
-
-
+  - osx
+  
 script: cd netflixoss-build-infrastructure-master/  ./gradlew eclipse
