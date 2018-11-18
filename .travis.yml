@@ -6,4 +6,4 @@ os:
   - linux
 
 
-script: ./gradlew eclipse
+script: cd netflixoss-build-infrastructure-master/  ./gradlew eclipse
