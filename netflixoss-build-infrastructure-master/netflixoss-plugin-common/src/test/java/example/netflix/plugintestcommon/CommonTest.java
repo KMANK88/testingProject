@@ -24,4 +24,23 @@ public class CommonTest {
         Common common = new Common();
         assertEquals("Hello Rob", common.message("Rob"));
     }
+    
+    /*
+    @Test
+    public void capitalTest() {
+        Common common = new Common();
+        assertEquals("Hello Rob", common.message("rob"));
+    }
+    
+    
+    
+    */
+    @Test
+    public void nameOnDifferetLines() {
+        Common common = new Common();
+        assertEquals("Hello Rob\nBeter", common.message("Rob\nBeter"));
+    }
+    
+    
+    
 }

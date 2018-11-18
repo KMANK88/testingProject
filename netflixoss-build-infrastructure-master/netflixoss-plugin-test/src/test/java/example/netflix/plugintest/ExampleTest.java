@@ -44,6 +44,11 @@ public class ExampleTest {
         assertEquals("Hi ", example.sayHi(""));
     }
     
+    @Test
+    public void hiTestLink() {
+        Example example = new Example();
+        assertEquals("Hi http://hello.com", example.sayHi("http://hello.com"));
+    }
     
     /*
     @Test
@@ -82,14 +87,31 @@ public class ExampleTest {
     	assertEquals("Hello Jason123", example.message("Jason123"));
     }
   
-    /*
+   
     @Test
-    public void StringNumbersTest() {
+    public void StringNumbersTest2() {
     	Example example = new Example();
     	assertEquals("Hello 1me", example.message("1me"));
     }
     
-    */
+    
+    @Test
+    public void LinkTest() {
+    	Example example = new Example();
+    	assertEquals("Hello http://wow.com", example.message("http://wow.com"));
+    }
+    
+    @Test
+    public void NumberTest() {
+    	Example example = new Example();
+    	assertEquals("Hello 52.0", example.message("52.0"));
+    }
+    
+    @Test
+    public void multipleNames() {
+    	Example example = new Example();
+    	assertEquals("Hello jason Vorhees", example.message("jason Vorhees"));
+    }
     
     
 }
